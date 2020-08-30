@@ -1,0 +1,14 @@
+.OpButton {
+	height: 100px;
+	border: 1px solid black;
+	padding: 1px;
+	background: lightsalmon;
+	cursor: pointer;
+}
+.OpButton:hover {
+	background: salmon;
+}
+
+.OpButton:focus {
+	outline: 0;
+}

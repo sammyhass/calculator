@@ -1,0 +1,23 @@
+.NumButtonList {
+	display: grid;
+	grid-template-columns: 33.3% 33.4% 33.4%;
+	width: 100%;
+	place-items: center;
+}
+
+.NumButtonList > * {
+	width: 100%;
+	height: 100px;
+}
+
+@media (max-width: 1700px) {
+	.NumButtonList {
+		width: 100%;
+		margin: auto;
+	}
+
+	/* .NumButtonList > * {
+		height: 70px;
+		width: 70px;
+	} */
+}

@@ -1,0 +1,19 @@
+.ButtonsContainer {
+	width: 100%;
+	display: flex;
+}
+
+.RightButtons {
+	width: 100%;
+}
+
+@media (max-width: 800px) {
+	.ButtonsContainer {
+		flex-direction: column;
+		align-items: center;
+	}
+
+	.RightButtons {
+		width: 100%;
+	}
+}

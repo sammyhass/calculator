@@ -1,0 +1,13 @@
+.NumButton {
+	border: 1px solid black;
+	cursor: pointer;
+	background: lightcyan;
+}
+
+.NumButton:focus {
+	outline: none;
+}
+
+.NumButton:hover {
+	background: lightblue;
+}
